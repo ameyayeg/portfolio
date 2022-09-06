@@ -1,0 +1,28 @@
+
+.homeImage {
+    grid-area: img;
+    border-radius: 50%;
+    border: 5px solid white;
+    max-width: 100%;
+}
+
+.homeHeader {
+    grid-area: header;
+    color: #CCCCCC;
+    font-size: var(--font-size-lg);
+}
+
+nav {
+    grid-area: nav
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .homeHeader {
+        font-size: var(--font-size-base);
+    }
+}

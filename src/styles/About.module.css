@@ -1,0 +1,45 @@
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, 
+a:focus {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #1589FF;
+}
+
+.aboutHeader {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-size-base);
+    border: 5px solid #eee;
+    border-radius: 10px;
+    padding: 0.5em;
+    gap: 0.5em;
+}
+
+
+.aboutImage {
+    grid-area: img;
+}
+
+.aboutLink:hover, 
+.aboutLink:focus {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #1589FF;
+}
+
+
+
+@media only screen and (max-width: 962px) {
+    .aboutHeader {
+        font-size: var(--font-size-sm);
+    }
+}
+
+

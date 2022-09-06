@@ -1,0 +1,44 @@
+
+  .projectContainer {
+    max-width: 80%;
+    grid-column-start: span 2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+  }
+  
+  .projectButton {
+    cursor: pointer;
+    border: none;
+    align-self: center;   
+    border-radius: 50%;
+    padding: 0.75em;
+  }
+
+  .projectDownArrow,
+  .projectUpArrow {
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .projectContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .projectDownArrow,
+    .projectUpArrow {
+      display: inline-block;
+    }
+    .projectLeftArrow,
+    .projectRightArrow {
+      display: none;
+    }
+}
+
+
+
+

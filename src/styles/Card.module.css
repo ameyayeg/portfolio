@@ -1,0 +1,30 @@
+.cardContainer {
+    max-width: 80%;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    border: 5px transparent solid;
+}
+
+.cardContainer:hover,
+.cardContainer:focus {
+    filter: grayscale(0);
+    border: 5px solid #eee;
+}
+
+.cardImage {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.cardDetails {
+    padding: 0.5em;
+}
+.cardDescription {
+    font-size: var(--font-size-base);
+    margin-top: 0.2em;
+}
+
+.cardTitle {
+    font-size: var(--font-size-lg);
+}
+
