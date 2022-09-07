@@ -29,7 +29,7 @@ const [index, setIndex] = React.useState(0);
     return ( 
         <div className="container">
             <Navbar />
-            <img src='./portfolio/images/profile.jpg' alt="Author smiling" className={styles.homeImage} />
+            <img src="images/profile.jpg" alt="Author smiling" className={styles.homeImage} />
             <h2 className={styles.homeHeader}>
                 Hi there, I'm an Ottawa-based&nbsp;
                 <TextTransition style={{color: '#1589FF'}} springConfig={presets.slow} inline={false}>
