@@ -1,5 +1,5 @@
 import React from "react"
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Nav/Navbar";
 import Footer from "../components/Footer";
 import styles from '../styles/Work.module.css'
 import Card from "../components/Card";

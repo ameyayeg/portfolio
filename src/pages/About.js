@@ -1,5 +1,5 @@
 import React from "react"
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Nav/Navbar"
 import Footer from "../components/Footer"
 import styles from '../styles/About.module.css'
 import Icon from "../Icon"
@@ -24,7 +24,9 @@ const About = () => {
                     <p>I used to be a breaking news reporter. I got my start at the Bonnyville Nouvelle, a community newspaper that served its namesake small-town in the Canadian prairies. I was part of the <span className={styles.aboutLink}><a href="https://edmontonjournal.com/author/acharnalia/" target="_blank" rel="noopener noreferrer">Edmonton Journal</a></span> team that won a National Newspaper Award in the breaking news category for our coverage of the devastating 2015 Fort McMurray wildfires. I finished my news career at the <span className={styles.aboutLink}><a href="https://www.thestar.com/authors.charnalia_ameya.html" target="_blank" rel="noopener noreferrer">Star</a></span>, where I covered energy, transport and municipal politics.</p>
                 </div>
             </div>
-            <Icon className={styles.aboutImage}/>
+            <div className={styles.aboutImage}>
+                <Icon />
+            </div>
             <Footer/>
         </div>
      );

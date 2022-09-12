@@ -28,3 +28,17 @@
     font-size: var(--font-size-lg);
 }
 
+@media only screen and (max-width: 600px) {
+    .cardContainer {
+        max-width: 100%;
+        border: 5px solid #eee;
+        filter: none;
+        transition: none; 
+        border: none;
+    } 
+
+    .cardContainer:hover,
+    .cardContainer:focus {
+    border: none;
+}
+}

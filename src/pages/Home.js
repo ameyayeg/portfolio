@@ -1,7 +1,7 @@
 
 import React from "react"
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Nav/Navbar';
 import Footer from '../components/Footer';
 import TextTransition, { presets } from "react-text-transition";
 

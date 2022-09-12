@@ -22,6 +22,14 @@
     display: none;
   }
 
+  nav {
+    grid-area: nav
+}
+
+footer {
+    grid-area: footer;
+}
+
   @media only screen and (max-width: 600px) {
     .projectContainer {
       flex-direction: column;

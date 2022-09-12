@@ -1,18 +1,5 @@
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover, 
-a:focus {
-    cursor: pointer;
-    text-decoration: underline;
-    text-decoration-color: #1589FF;
-}
-
 .aboutHeader {
-    grid-area: header;
+    grid-area: img;
     display: flex;
     flex-direction: column;
     font-size: var(--font-size-base);
@@ -22,21 +9,36 @@ a:focus {
     gap: 0.5em;
 }
 
-
 .aboutImage {
-    grid-area: img;
+    grid-area: header;
 }
+
+
 
 .aboutLink:hover, 
 .aboutLink:focus {
     cursor: pointer;
-    text-decoration: underline;
-    text-decoration-color: #1589FF;
+    color: #1589FF;
+}
+
+nav {
+    grid-area: nav
+}
+
+footer {
+    grid-area: footer;
 }
 
 
+@media only screen and (max-width: 950px) {
+    .aboutImage {
+        display: none;
+    }
 
-@media only screen and (max-width: 962px) {
+    .aboutLink {
+        color: #1589FF;
+    }
+    
     .aboutHeader {
         font-size: var(--font-size-sm);
     }

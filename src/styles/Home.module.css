@@ -3,7 +3,7 @@
     grid-area: img;
     border-radius: 50%;
     border: 5px solid white;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .homeHeader {
@@ -21,8 +21,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-
     .homeHeader {
-        font-size: var(--font-size-base);
+        font-size: var(--font-size-sm);
     }
 }
