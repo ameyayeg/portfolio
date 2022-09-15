@@ -34,6 +34,7 @@ React.useEffect(() => {
 }, [index])
 
 
+
     return ( 
         <div className="container">
             <Navbar/>

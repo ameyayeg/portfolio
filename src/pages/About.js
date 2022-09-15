@@ -4,6 +4,7 @@ import Footer from "../components/Footer"
 import styles from '../styles/About.module.css'
 import Icon from "../Icon"
 
+
 const About = () => {
     return ( 
         <div className="container">
