@@ -19,6 +19,15 @@ const projects = [
       live: "https://nodeblogexpressapp.herokuapp.com/",
       id: 2
     },
+    {
+      title: "Billbot",
+      tech: ["Node", "Twitter API"],
+      description:
+        "A Twitter bot that tells you what government bills are up for debate daily.",
+      image: "images/billbot.png",
+      live: "https://twitter.com/billsbeepboop",
+      id: 3
+    },
   ];
 
   export default projects
