@@ -28,3 +28,6 @@ Start the development server:
 |react-scripts| 
 |react-spring| 
 |react-text-transition| 
+
+<img width="1440" alt="Screenshot 2022-10-03 at 18 08 54" src="https://user-images.githubusercontent.com/91851828/193694975-9fccb840-935c-4c91-9d8c-e94e26c77842.png">
+
