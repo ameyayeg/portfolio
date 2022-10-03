@@ -1,1 +1,30 @@
-## Web dev portfolio website built in React
+# Project description
+
+A portfolio website that showcases some the recent projects. Made in React with ```create-react-app```, the site uses the recently released version six of React Router, and it's hosted on a custom domain through Netlify.
+
+# How to install
+
+To fork the repository, click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands: 
+```git clone hhttps://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git```
+```cd developer-portfolio```
+
+Install packages from the root directory:
+
+```npm install```
+
+Start the development server:
+
+```npm run start```
+
+# Packages used
+
+| Client side packages| 
+| ----------- | 
+|framer-motion| 
+|react-burger-menu| 
+|react-content-loader| 
+|react-icons| 
+|react-router-dom| 
+|react-scripts| 
+|react-spring| 
+|react-text-transition| 
