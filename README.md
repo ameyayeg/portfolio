@@ -1,6 +1,6 @@
 # Project description
 
-A portfolio website that showcases some the recent projects. Made in React with ```create-react-app```, the site uses the recently released version six of React Router, and it's hosted on a custom domain through Netlify.
+A portfolio website that showcases some recent projects. Made in React with ```create-react-app```, the site uses the recently released version six of React Router, and it's hosted on a custom domain through Netlify.
 
 # How to install
 
