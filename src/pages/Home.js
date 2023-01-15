@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Nav/Navbar';
 import Footer from '../components/Footer';
 import TextTransition, { presets } from "react-text-transition";
+import { Link } from "react-router-dom"
 
 
 const TEXTS = [
@@ -35,7 +36,7 @@ const [index, setIndex] = React.useState(0);
                 <TextTransition style={{color: '#1589FF'}} springConfig={presets.slow} inline={false}>
                   {index < 3 ? 
                   arrayText :
-                  "web developer."}
+                  <Link to="/work">web developer.</Link>}
                 </TextTransition>
             </h2>
             <Footer />

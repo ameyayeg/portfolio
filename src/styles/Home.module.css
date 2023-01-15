@@ -2,7 +2,7 @@
 .homeImage {
     grid-area: img;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 10px solid white;
     max-width: 80%;
 }
 

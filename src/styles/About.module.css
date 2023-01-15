@@ -5,15 +5,18 @@
     font-size: var(--font-size-base);
     border: 5px solid #eee;
     border-radius: 10px;
-    padding: 0.5em;
-    gap: 0.5em;
+    padding: 1em;
+    gap: 0.25em;
+    margin: 0 auto;
+}
+
+.aboutHeader h2 {
+    margin-bottom: 0.1em;
 }
 
 .aboutImage {
     grid-area: header;
 }
-
-
 
 .aboutLink:hover, 
 .aboutLink:focus {
