@@ -61,7 +61,7 @@ const Work = ({ language, toggleLanguage }) => {
         title: 'École intermédiaire Bliss Carman',
         date: 'Mars 2026 – Mai 2026',
         location: 'Fredericton, N.-B.',
-        role: 'Stagiaire enseignante en immersion française de 6e année',
+        role: 'Stagiaire enseignant en immersion française de 6e année',
         bullets: [
           'Enseigné la langue arts de l’immersion française (FILA) de 6e année, en concevant des leçons centrées sur l’élève pour renforcer la compétence orale et la littératie.',
           'Soutenu des profils d’élèves diversifiés en différenciant l’instruction et en structurant le contenu pour différents niveaux de compétence.',
@@ -72,7 +72,7 @@ const Work = ({ language, toggleLanguage }) => {
         title: 'École intermédiaire George Street',
         date: 'Oct. 2025 – Déc. 2025',
         location: 'Fredericton, N.-B.',
-        role: 'Stagiaire enseignante en immersion française de 6e année',
+        role: 'Stagiaire enseignant en immersion française de 6e année',
         bullets: [
           'Enseigné la langue arts français en immersion précoce (FILA) et les sciences en immersion tardive, en adaptant l’instruction aux comportements et aux besoins d’apprentissage variés.',
           'Différencié l’instruction et structuré le contenu scientifique complexe pour soutenir les élèves ayant différents niveaux de compétence en français.',
@@ -223,19 +223,6 @@ const Work = ({ language, toggleLanguage }) => {
                   </div>
                 ))}
               </div>
-
-              <div className={styles.resumeColumns}>
-                <div>
-                  <h4>{resume[language].skillsTitle}</h4>
-                  <div className={styles.skillTags}>
-                    {resume[language].skills.map((skill) => (
-                      <span key={skill} className={styles.skillTag}>
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
               <div className={styles.educationAwards}>
                 <div className={styles.educationBlock}>
                   <h4>{resume[language].educationTitle}</h4>
@@ -252,6 +239,18 @@ const Work = ({ language, toggleLanguage }) => {
                       <li key={a}>{a}</li>
                     ))}
                   </ul>
+                </div>
+              </div>
+              <div className={styles.resumeColumns}>
+                <div>
+                  <h4>{resume[language].skillsTitle}</h4>
+                  <div className={styles.skillTags}>
+                    {resume[language].skills.map((skill) => (
+                      <span key={skill} className={styles.skillTag}>
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
