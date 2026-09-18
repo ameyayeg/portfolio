@@ -15,22 +15,6 @@ const projects = [
     live: 'https://eatthestrip.com/',
     id: 1,
   },
-  {
-    title: {
-      en: 'Billbot',
-      fr: 'Billbot',
-    },
-    tech: ['Node', 'Mastodon API', 'AWS'],
-    description: {
-      en:
-        'A Mastodon bot that tells you what government bills are up for debate daily.',
-      fr:
-        'Un bot Mastodon qui informe quotidiennement des projets de loi du gouvernement à l’ordre du jour.',
-    },
-    image: 'images/mastodon.png',
-    live: 'https://mstdn.ca/@billbot',
-    id: 2,
-  },
 ]
 
 export default projects
